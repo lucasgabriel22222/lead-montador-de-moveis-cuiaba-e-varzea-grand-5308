@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Montador de Móveis Cuiabá e Várzea Grande | Serviços de Marcenaria Profissional</title>
+  <meta name="description" content="Montagem, desmontagem e ajustes de móveis residenciais e corporativos em Cuiabá e Várzea Grande. Atendimento rápido, garantia e ferramentas profissionais.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#f0fdf4',
+              100: '#dcfce7',
+              500: '#22c55e',
+              600: '#16a34a',
+              700: '#15803d',
+              900: '#14532d',
+            },
+            accent: {
+              500: '#f59e0b',
+              600: '#d97706',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Safety & Reset CSS -->
+  <style>
+    * { 
+      opacity: 1 !important; 
+      visibility: visible !important; 
+    }
+    html { 
+      scroll-behavior: smooth; 
+      font-family: 'Plus Jakarta Sans', sans-serif; 
+    }
+    details summary::-webkit-details-marker {
+      display: none;
+    }
+  </style>
+
+  <style id="visibility-fallback">
+    * { opacity: 1 !important; visibility: visible !important; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-brand-500 selection:text-white">
+
+  <!-- 1. HEADER FIXO (Navbar) -->
+  <header class="fixed top-0 left-0 right-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-100 shadow-sm transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <!-- Logo -->
+        <a href="#inicio" class="flex items-center gap-3 group">
+          <div class="w-11 h-11 bg-slate-900 rounded-xl flex items-center justify-center text-brand-500 shadow-md group-hover:scale-105 transition-transform duration-300">
+            <i class="fa-solid fa-screwdriver-wrench text-xl"></i>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-extrabold text-lg leading-tight text-slate-900 group-hover:text-brand-600 transition-colors">Montador Cuiabá</span>
+            <span class="text-xs text-slate-500 font-medium">& Várzea Grande</span>
+          </div>
+        </a>
+
+        <!-- Menu Desktop -->
+        <nav class="hidden md:flex items-center gap-8 font-medium text-sm text-slate-600">
+          <a href="#inicio" class="hover:text-brand-600 transition-colors">Início</a>
+          <a href="#servicos" class="hover:text-brand-600 transition-colors">Serviços</a>
+          <a href="#portfolio" class="hover:text-brand-600 transition-colors">Portfólio</a>
+          <a href="#diferenciais" class="hover:text-brand-600 transition-colors">Diferenciais</a>
+          <a href="#depoimentos" class="hover:text-brand-600 transition-colors">Depoimentos</a>
+          <a href="#faq" class="hover:text-brand-600 transition-colors">Dúvidas</a>
+        </nav>
+
+        <!-- CTA Header -->
+        <div class="hidden sm:flex items-center gap-3">
+          <a href="https://api.whatsapp.com/send?phone=5565992834810&text=Ol%C3%A1!%20Encontrei%20o%20site%20da%20Montador%20de%20Moveis%20Cuiab%C3%A1%20e%20varzea%20grande%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" class="bg-brand-600 hover:bg-brand-700 text-white px-5 py-2.5 rounded-full font-semibold text-sm shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 flex items-center gap-2">
+            <i class="fa-brands fa-whatsapp text-lg"></i>
+            <span>Solicitar Orçamento</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="pt-20">
+    <!-- 2. HERO SECTION -->
+    <section id="inicio" class="relative bg-gradient-to-b from-slate-100 via-slate-50 to-white py-16 lg:py-24 overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <!-- Coluna da Esquerda: Copy & CTAs -->
+          <div class="lg:col-span-7 space-y-6">
+            <!-- Badge Google -->
+            <div class="inline-flex items-center gap-2 px-4 py-2 bg-white rounded-full shadow-sm border border-slate-200">
+              <div class="flex text-accent-500 text-sm">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <span class="text-xs sm:text-sm font-semibold text-slate-700">3.9 no Google Maps <span class="text-slate-400 font-normal">(20 avaliações)</span></span>
+            </div>
+
+            <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-tight tracking-tight">
+              Montagem de Móveis & Marcenaria com <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-emerald-800">Perfeição e Rapidez</span>
+            </h1>
+
+            <p class="text-lg text-slate-600 leading-relaxed max-w-2xl">
+              Atendimento especializado em <strong>Cuiabá e Várzea Grande</strong>. Montamos, desmontamos e ajustamos móveis novos e usados com ferramentas profissionais, agilidade e garantia total de acabamento impecável.
+            </p>
+
+            <!-- Botões de Ação -->
+            <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
+              <a href="https://api.whatsapp.com/send?phone=5565992834810&text=Ol%C3%A1!%20Encontrei%20o%20site%20da%20Montador%20de%20Moveis%20Cuiab%C3%A1%20e%20varzea%20grande%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" class="bg-brand-600 hover:bg-brand-700 text-white px-8 py-4 rounded-2xl font-bold text-base text-center shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3 group">
+                <i class="fa-brands fa-whatsapp text-2xl group-hover:rotate-12 transition-transform"></i>
+                <span>Orçamento Grátis no WhatsApp</span>
+              </a>
+              <a href="#portfolio" class="bg-white hover:bg-slate-100 text-slate-800 border border-slate-300 px-6 py-4 rounded-2xl font-semibold text-base text-center shadow-sm hover:shadow transition-all duration-300 flex items-center justify-center gap-2">
+                <span>Ver Portfólio</span>
+                <i class="fa-solid fa-arrow-down text-slate-400"></i>
+              </a>
+            </div>
+
+            <!-- Prova Rápida -->
+            <div class="pt-6 border-t border-slate-200/80 flex items-center gap-6">
+              <div class="flex -space-x-3">
+                <img class="w-10 h-10 rounded-full border-2 border-white object-cover" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80" alt="Cliente Cuiabá">
+                <img class="w-10 h-10 rounded-full border-2 border-white object-cover" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80" alt="Cliente Várzea Grande">
+                <img class="w-10 h-10 rounded-full border-2 border-white object-cover" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=120&q=80" alt="Cliente Atendido">
+              </div>
+              <div class="text-xs text-slate-500">
+                <strong class="text-slate-800 block text-sm font-bold">+1.200 Móveis Montados</strong>
+                Atendimento rápido residencial e comercial
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna da Direita: Imagem Principal -->
+          <div class="lg:col-span-5 relative">
+            <div class="relative mx-auto max-w-md lg:max-w-none">
+              <!-- Moldura Decorativa -->
+              <div class="absolute -inset-4 bg-gradient-to-r from-brand-500 to-emerald-600 rounded-3xl blur-lg opacity-20 transform -rotate-1"></div>
+              
+              <!-- Imagem do Unsplash -->
+              <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80" alt="Montagem Profissional de Móveis" class="relative rounded-3xl shadow-2xl w-full h-[460px] object-cover border border-white/50">
+
+              <!-- Card Flutuante 1 -->
+              <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-2xl shadow-xl border border-slate-100 flex items-center gap-4 max-w-xs">
+                <div class="w-12 h-12 bg-emerald-100 text-brand-600 rounded-xl flex items-center justify-center text-xl shrink-0">
+                  <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-slate-900 text-sm">Garantia Total</h4>
+                  <p class="text-xs text-slate-500">Serviço seguro e com acabamento sem danos aos seus móveis.</p>
+                </div>
+              </div>
+
+              <!-- Card Flutuante 2 -->
+              <div class="absolute -top-6 -right-6 bg-slate-900 text-white p-3 px-5 rounded-2xl shadow-xl flex items-center gap-3">
+                <span class="relative flex h-3 w-3">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-500 opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-3 w-3 bg-brand-500"></span>
+                </span>
+                <span class="text-xs font-semibold">Atendendo Hoje em Cuiabá e VG</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. ESTATÍSTICAS / NÚMEROS DE IMPACTO -->
+    <section class="bg-slate-900 text-white py-12 relative z-10 border-y border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          <div class="space-y-1">
+            <p class="text-3xl sm:text-4xl font-extrabold text-brand-500">+1.200</p>
+            <p class="text-xs sm:text-sm text-slate-400 font-medium">Clientes Atendidos</p>
+          </div>
+          <div class="space-y-1">
+            <p class="text-3xl sm:text-4xl font-extrabold text-accent-500">3.9 ★</p>
+            <p class="text-xs sm:text-sm text-slate-400 font-medium">Avaliação Google Maps</p>
+          </div>
+          <div class="space-y-1">
+            <p class="text-3xl sm:text-4xl font-extrabold text-brand-500">100%</p>
+            <p class="text-xs sm:text-sm text-slate-400 font-medium">Garantia de Satisfação</p>
+          </div>
+          <div class="space-y-1">
+            <p class="text-3xl sm:text-4xl font-extrabold text-accent-500">Agilidade</p>
+            <p class="text-xs sm:text-sm text-slate-400 font-medium">Atendimento Rápido</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. SEÇÃO DE SERVIÇOS & ESPECIALIDADES -->
+    <section id="servicos" class="py-20 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-brand-600 font-bold text-sm tracking-wider uppercase bg-brand-50 px-4 py-1.5 rounded-full border border-brand-100">Soluções Completas</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-4 mb-4">Serviços Profissionais de Montagem e Marcenaria</h2>
+          <p class="text-slate-600 text-base sm:text-lg">Trabalhamos com móveis de todas as marcas e modelos (MDF, MDP, Madeira Massiça) garantindo alinhamento perfeito e durabilidade.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          
+          <!-- Card 1 -->
+          <div class="bg-white p-8 rounded-3xl border border-slate-200/80 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between">
+            <div>
+              <div class="w-14 h-14 bg-brand-50 text-brand-600 rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-sm">
+                <i class="fa-solid fa-bed"></i>
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 mb-3">Montagem de Dormitórios</h3>
+              <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                Montagem de guarda-roupas, roupeiros sob medida, camas, cabeceiras, cômodas e criados-mudos com esquadro impecável.
+              </p>
+            </div>
+            <a href="https://api.whatsapp.com/send?phone=5565992834810&text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20para%20Montagem%20de%20Dormit%C3%B3rios." target="_blank" class="inline-flex items-center gap-2 text-brand-600 font-semibold text-sm hover:gap-3 transition-all">
+              <span>Pedir orçamento</span>
+              <i class="fa-solid fa-arrow-right text-xs"></i>
+            </a>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-white p-8 rounded-3xl border border-slate-200/80 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between">
+            <div>
+              <div class="w-14 h-14 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-sm">
+                <i class="fa-solid fa-utensils"></i>
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 mb-3">Cozinhas & Escritórios</h3>
+              <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                Instalação e montagem de armários aéreos de cozinha, balcões, mesas de reunião, estações de trabalho e móveis corporativos.
+              </p>
+            </div>
+            <a href="https://api.whatsapp.com/send?phone=5565992834810&text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20para%20Cozinhas%20e%20Escrit%C3%B3rios." target="_blank" class="inline-flex items-center gap-2 text-brand-600 font-semibold text-sm hover:gap-3 transition-all">
+              <span>Pedir orçamento</span>
+              <i class="fa-solid fa-arrow-right text-xs"></i>
+            </a>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-white p-8 rounded-3xl border border-slate-200/80 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between">
+            <div>
+              <div class="w-14 h-14 bg-amber-50 text-amber-600 rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-sm">
+                <i class="fa-solid fa-tv"></i>
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 mb-3">Painéis, TV & Nichos</h3>
+              <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                Fixação segura de painéis de TV em paredes de alvenaria ou drywall, instalação de prateleiras, espelhos e nichos decorativos.
+              </p>
+            </div>
+            <a href="https://api.whatsapp.com/send?phone=5565992834810&text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20para%20Instala%C3%A7%C3%A3o%20de%20Pain%C3%A9is%20e%20Nichos." target="_blank" class="inline-flex items-center gap-2 text-brand-600 font-semibold text-sm hover:gap-3 transition-all">
+              <span>Pedir orçamento</span>
+              <i class="fa-solid fa-arrow-right text-xs"></i>
+            </a>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="bg-white p-8 rounded-3xl border border-slate-200/80 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between">
+            <div>
+              <div class="w-14 h-14 bg-indigo-50 text-indigo-600 rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-sm">
+                <i class="fa-solid fa-hammer"></i>
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 mb-3">Ajustes & Desmontagem</h3>
+              <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                Troca de dobradiças, corrediças telescópicas emperradas, regulagem de portas, desmontagem para mudança e montagem no novo endereço.
+              </p>
+            </div>
+            <a href="https://api.whatsapp.com/send?phone=5565992834810&text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20para%20Ajustes,%20Reparos%20ou%20Desmontagem." target="_blank" class="inline-flex items-center gap-2 text-brand-600 font-semibold text-sm hover:gap-3 transition-all">
+              <span>Pedir orçamento</span>
+              <i class="fa-solid fa-arrow-right text-xs"></i>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. GALERIA / PORTFÓLIO DE PROJETOS REALIZADOS -->
+    <section id="portfolio" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+          <div>
+            <span class="text-brand-600 font-bold text-sm tracking-wider uppercase bg-brand-50 px-4 py-1.5 rounded-full border border-brand-100">Galeria de Trabalhos</span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-4">Projetos Executados com Sucesso</h2>
+          </div>
+          <p class="text-slate-500 text-sm max-w-md mt-4 md:mt-0">
+            Veja algumas amostras de montagens e serviços de marcenaria realizados para nossos clientes em Cuiabá e Várzea Grande.
+          </p>
+        </div>
+
+        <!-- Grid do Portfólio -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <!-- Foto 1 -->
+          <div class="group relative overflow-hidden rounded-2xl shadow-md bg-slate-100">
+            <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80" alt="Sala de Estar Planejada Cuiabá" class="w-full h-72 object-cover group-hover:scale-110 transition-all duration-500">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/20 to-transparent opacity-90 transition-opacity"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
+              <span class="text-xs font-semibold text-brand-400 uppercase tracking-wider">Montagem Residencial</span>
+              <h4 class="text-lg font-bold">Estante & Rack Sob Medida</h4>
+              <p class="text-xs text-slate-300 mt-1"><i class="fa-solid fa-location-dot text-brand-500 mr-1"></i> Bairro Jardim Shangri-lá, Cuiabá</p>
+            </div>
+          </div>
+
+          <!-- Foto 2 -->
+          <div class="group relative overflow-hidden rounded-2xl shadow-md bg-slate-100">
+            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80" alt="Poltrona e Móveis de Quarto" class="w-full h-72 object-cover group-hover:scale-110 transition-all duration-500">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/20 to-transparent opacity-90 transition-opacity"></div>
+            <div class="absolute bottom-0
+</body>
+</html>
